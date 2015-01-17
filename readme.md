@@ -1,6 +1,7 @@
 min-request
 ===
 
+[![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 
 For people who cannot understand [request](https://github.com/request/request) like me to use request
@@ -57,3 +58,5 @@ request('localhost:8080/upload', {
 
 [travis-image]: https://img.shields.io/travis/chunpu/min-request.svg?style=flat
 [travis-url]: https://travis-ci.org/chunpu/min-request
+[npm-image]: https://img.shields.io/npm/v/min-request.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/min-request
