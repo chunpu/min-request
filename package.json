@@ -1,0 +1,46 @@
+{
+  "name": "min-request",
+  "version": "1.2.0",
+  "main": "request.js",
+  "scripts": {
+    "test": "node *test.js"
+  },
+  "author": {
+    "name": "chunpu"
+  },
+  "license": "ISC",
+  "description": "simple request",
+  "keywords": [
+    "request",
+    "http"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chunpu/min-request.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chunpu/min-request/issues"
+  },
+  "homepage": "https://github.com/chunpu/min-request",
+  "gitHead": "8a27af9ec1a681ea1ada9ddc08c399dfee4a0d8b",
+  "_id": "min-request@1.2.0",
+  "_shasum": "9aa4bde58f4eaebc504431c0d098cbe882253d77",
+  "_from": "min-request@*",
+  "_npmVersion": "2.0.0-alpha-5",
+  "_npmUser": {
+    "name": "ftft1885",
+    "email": "ftft1885@163.com"
+  },
+  "maintainers": [
+    {
+      "name": "ftft1885",
+      "email": "ftft1885@163.com"
+    }
+  ],
+  "dist": {
+    "shasum": "9aa4bde58f4eaebc504431c0d098cbe882253d77",
+    "tarball": "http://registry.npmjs.org/min-request/-/min-request-1.2.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/min-request/-/min-request-1.2.0.tgz"
+}
