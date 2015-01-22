@@ -1,28 +1,35 @@
-min-request
+min-request@1.2.1
 ===
 
+[![Build status][travis-image]][travis-url]
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
+[![Downloads][downloads-image]][downloads-url]
 
-For people who cannot understand [request](https://github.com/request/request) like me to use request
+Simple request, For people who cannot understand [request](https://github.com/request/request) like me to use http request
 
-Support string, json, stream, buffer
-
-===
-
-Install
+Installation
 ---
 
 ```sh
-npm install min-request --save
+npm install min-request 
 ```
+
+Support
+---
+
+Support body types
+
+- string
+- json
+- stream
+- buffer
 
 Usage
 ---
 
 request(url, [options], callback)
 
-callback param is like `request@request`: err, res, body
+callback param is just like `request@request`: err, res, body
 
 Simplest
 
@@ -56,7 +63,14 @@ request('localhost:8080/upload', {
 })
 ```
 
-[travis-image]: https://img.shields.io/travis/chunpu/min-request.svg?style=flat
-[travis-url]: https://travis-ci.org/chunpu/min-request
+License
+---
+
+ISC
+
 [npm-image]: https://img.shields.io/npm/v/min-request.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/min-request
+[travis-image]: https://img.shields.io/travis/chunpu/min-request.svg?style=flat-square
+[travis-url]: https://travis-ci.org/chunpu/min-request
+[downloads-image]: http://img.shields.io/npm/dm/min-request.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/min-request

@@ -1,15 +1,16 @@
 {
   "name": "min-request",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "request.js",
   "scripts": {
-    "test": "node *test.js"
+    "test": "node *test.js",
+	"readme": "pretty-readme > readme.md"
   },
   "author": {
     "name": "chunpu"
   },
   "license": "ISC",
-  "description": "simple request",
+  "description": "Simple request, For people who cannot understand [request](https://github.com/request/request) like me to use http request",
   "keywords": [
     "request",
     "http"

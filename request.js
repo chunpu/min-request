@@ -21,7 +21,7 @@ function request(raw, opt, cb) {
           hostname: parsed.hostname
         , port: parsed.port
         , path: parsed.path
-        , auth: parsed.auth
+        , auth: parsed.auth || undefined
     }
     var method = 'GET'
     var body = opt.body || opt.data
