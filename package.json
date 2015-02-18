@@ -1,13 +1,11 @@
 {
   "name": "min-request",
-  "version": "1.2.1",
+  "version": "1.3.0",
   "main": "request.js",
   "scripts": {
-    "test": "node *test.js",
-	"readme": "pretty-readme > readme.md"
-  },
-  "author": {
-    "name": "chunpu"
+    "test": "mocha test",
+    "readme": "pretty-readme coveralls > readme.md",
+    "cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter spec --check-leaks test"
   },
   "license": "ISC",
   "description": "Simple request, For people who cannot understand [request](https://github.com/request/request) like me to use http request",
@@ -15,33 +13,17 @@
     "request",
     "http"
   ],
+  "devDependencies": {
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/chunpu/min-request.git"
+    "url": "https://github.com/chunpu/min-request"
   },
+  "author": "chunpu",
   "bugs": {
     "url": "https://github.com/chunpu/min-request/issues"
   },
-  "homepage": "https://github.com/chunpu/min-request",
-  "gitHead": "8a27af9ec1a681ea1ada9ddc08c399dfee4a0d8b",
-  "_id": "min-request@1.2.0",
-  "_shasum": "9aa4bde58f4eaebc504431c0d098cbe882253d77",
-  "_from": "min-request@*",
-  "_npmVersion": "2.0.0-alpha-5",
-  "_npmUser": {
-    "name": "ftft1885",
-    "email": "ftft1885@163.com"
-  },
-  "maintainers": [
-    {
-      "name": "ftft1885",
-      "email": "ftft1885@163.com"
-    }
-  ],
-  "dist": {
-    "shasum": "9aa4bde58f4eaebc504431c0d098cbe882253d77",
-    "tarball": "http://registry.npmjs.org/min-request/-/min-request-1.2.0.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/min-request/-/min-request-1.2.0.tgz"
+  "homepage": "https://github.com/chunpu/min-request"
 }
