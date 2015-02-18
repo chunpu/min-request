@@ -1,6 +1,10 @@
 var http = require('http')
 var url = require('url')
-var debug = require('util').debuglog('request')
+var util = require('util')
+var debug = function() {}
+if (util.debuglog) {
+	debug = util.debuglog('request')
+}
 
 module.exports = exports = request
 
