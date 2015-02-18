@@ -67,11 +67,7 @@ request('localhost:8080/upload', {
 Advanced
 ---
 
-```bash
-NODE_DEBUG=request node index.js
-```
-
-use `NODE_DEBUG` to see request options
+use `NODE_DEBUG=request` to show request options
 
 License
 ---
